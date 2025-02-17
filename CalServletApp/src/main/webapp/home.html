@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculations</title>
+<style>
+	.fc{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	form{
+		padding: 20px;
+		padding-top: 20px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	.fg{
+		margin-bottom: 20px;
+	}
+	input{
+		width: 95%;
+		padding: 8px;
+		margin: 2px;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+	}
+</style>
+</head>
+<body>
+	<div class="fc">
+		<form action="choice" method="post">
+			<div class="fg">
+				Value 1<input type="text" name="v1">
+			</div>
+			<div class="fg">
+				Value 2<input type="text" name="v2">
+			</div>
+			<input type="submit" name="option" value="Addition">
+			<input type="submit" name="option" value="Subtraction">
+			<input type="submit" name="option" value="Multiplication">
+			<input type="submit" name="option" value="Division">
+			<input type="submit" name="option" value="Modular Division">
+			<input type="submit" name="option" value="Biggest">
+			<input type="submit" name="option" value="Smallest">
+		</form>
+	</div>
+</body>
+</html>
